@@ -44,11 +44,11 @@ p {
 	color: rgb(85,85,85);
 }
 
-a:link {
+p a:link {
   color: rgb(56,130,182);
   text-decoration: none;
 }
-a:hover {
+p a:hover {
   text-decoration: underline;
 }
 
