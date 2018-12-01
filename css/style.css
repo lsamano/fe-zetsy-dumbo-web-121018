@@ -1,13 +1,14 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face { font-family: Baskerville; src: url('./fonts/Baskerville.ttc'); }
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +19,59 @@ body {
 }
 
 /* Write all remaining styles here */
+h1#zetsy {
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: bold;
+	font-family: Baskerville, serif;
+	color: rgb(156,169,164);
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	font-size: 2em;
+	color: rgb(114,127,122);
+}
+
+img#necklace {
+	border-style: solid;
+	border-color: rgb(156,169,164);
+	border-width: 5px;
+}
+
+p {
+	color: rgb(85,85,85);
+}
+
+a:link {
+  color: rgb(56,130,182);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.press {
+	border-style: solid;
+	border-color: rgb(204,204,204);
+	border-width: 5px;
+}
+
+.press:hover {
+	border-color: rgb(114,127,122);
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+#copyright {
+	float: right;
+	font-size: small;
+}
